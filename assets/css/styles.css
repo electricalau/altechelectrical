@@ -705,6 +705,18 @@ section[id], article[id], form[id] { scroll-margin-top: calc(var(--strip-h) + 12
   .g-badge { margin-right: 16px; }
 }
 
+/* Google rating strip in the hero (phones and tablets; desktop uses the header badge) */
+.hero-rating {
+  display: inline-flex; align-items: center; gap: 8px; margin: 0 auto 20px; padding: 8px 16px 8px 10px;
+  color: var(--charcoal); text-decoration: none; background: var(--white); border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .3);
+}
+.hero-rating .g-logo { width: 24px; height: 24px; }
+.hero-rating strong { font-size: 18px; font-weight: 800; line-height: 1; }
+.hero-rating .stars { font-size: 16px; letter-spacing: 1px; }
+.hero-rating-count { font-size: 14px; font-weight: 600; color: #5f6b78; white-space: nowrap; }
+@media (min-width: 1025px) { .hero-rating { display: none; } }
+
 /* Google rating badge in the header (desktop) */
 .g-badge {
   align-items: center; gap: 12px; padding: 10px 18px 10px 14px; text-decoration: none; color: var(--charcoal);
