@@ -1,0 +1,11 @@
+# Files in the repo that must never be served by the Worker
+.git
+.gitignore
+.assetsignore
+.wrangler
+node_modules
+_work
+wrangler.jsonc
+PROJECT-NOTES.md
+site-build-prompt.md
+assets/images/README.md

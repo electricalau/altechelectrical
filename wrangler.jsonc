@@ -1,0 +1,10 @@
+{
+  // Altech Electrical static site, deployed as a Worker with static assets.
+  // Built automatically by Cloudflare from GitHub (electricalau/altechelectrical, main).
+  "name": "altechelectrical",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}

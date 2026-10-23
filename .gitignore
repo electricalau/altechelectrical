@@ -1,0 +1,4 @@
+# Working files: reference-site captures, screenshots, originals and unusable photos stay local
+_work/
+.wrangler/
+node_modules/
